@@ -7,7 +7,7 @@
 local options = {
 
   base46 = {
-    theme = "rosepine-dawn",
+    theme = "yoru",
     hl_add = {},
     hl_override = {},
     integrations = {},

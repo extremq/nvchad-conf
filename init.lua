@@ -26,7 +26,8 @@ require("lazy").setup({
 }, lazy_config)
 
 require('gitsigns').setup {
-  current_line_blame = true, -- Toggle with `:Gitsigns toggle_current_line_blame`
+  current_line_blame = true,
+  auto_attach = true,
 }
 
 -- load theme
