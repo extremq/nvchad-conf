@@ -9,7 +9,11 @@ local options = {
   base46 = {
     theme = "yoru",
     hl_add = {},
-    hl_override = {},
+    hl_override = {
+      ["@comment"] = {
+        italic = true
+      }
+    },
     integrations = {},
     changed_themes = {},
     transparency = false,
