@@ -8,7 +8,8 @@ local options = {
 
   base46 = {
     theme = "yoru",
-    hl_add = {},
+    hl_add = {
+    },
     hl_override = {
       ["@comment"] = {
         italic = true
